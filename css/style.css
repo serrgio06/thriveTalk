@@ -72,7 +72,7 @@ li {
   font-size: 14px;
   padding: 20px 30px 19px 30px;
   white-space: nowrap;
-  /* outline: none; */
+  cursor: pointer;
 }
 .banner__container {
   display: flex;
@@ -95,25 +95,22 @@ li {
   font-size: 24px;
   line-height: 42px;
 }
-.banner__btn-left {
+.btn-top {
   font-weight: 700;
+  border: none;
+  border-radius: 0;
+  font-size: 16px;
+  cursor: pointer;
+  line-height: 23px;
+  padding: 10px 30px;
+}
+.banner__btn-left {
   color: #fff;
   background-color: #F9B640;
-  border: none;
-  border-radius: 0;
-  font-size: 16px;
-  padding: 10px 30px;
-  line-height: 23px;
 }
 .banner__btn-right {
-  font-weight: 700;
   color: #F9B640;
   background-color: transparent;
-  border: none;
-  border-radius: 0;
-  font-size: 16px;
-  line-height: 23px;
-  padding: 10px 30px;
   margin-left: 8px;
 }
 .why {
@@ -310,7 +307,7 @@ li {
   padding-top: 225px;
 }
 .link>a {
-  padding-top: 152px;
+  margin-top: 152px;
   font-size: 16px;
   line-height: 23px;
   color: #FAB63E;
@@ -342,55 +339,58 @@ li {
   line-height: 53px;
   color: #FFFFFF;
   padding-right: 260px;
+  padding-bottom: 66px;
 }
 .contact-link>a {
-  padding-top: 66px;
   font-size: 16px;
   line-height: 23px;
   color: #62D0DF;
 }
-.contact-images {
-  width: 35%;
-}
+
 .all__wrapper {
   display: flex;
 }
 .all-text {
   display: flex;
-  padding-top: 98px;
-  padding-left: 68px;
+  margin-top: 98px;
+  margin-left: 68px;
 }
 .text-info {
-  flex-basis: 33%;
+  display: flex;
+  flex-direction: column;
+  max-width: 198px;
+}
+.text-info>h3 {
+  padding-bottom: 50px;
 }
 .text-info>p {
-  padding-top: 50px;
-  font-size: 14px;
-  line-height: 23px;
   color: rgba(34, 53, 111, 0.5);
 }
 .text-address {
-  padding-left: 56px;
-  flex-basis: 33%;
+  display: flex;
+  flex-direction: column;
+  margin-left: 60px;
+  max-width: 196px;
+}
+.text-address>h3 {
+  padding-bottom: 50px;
 }
 .text-address>p {
-  padding-top: 50px;
-  font-size: 14px;
-  line-height: 23px;
+  padding-bottom: 40px;
   color: rgba(34, 53, 111, 0.5);
 }
-.text-address>div>a {
-  font-size: 14px;
-  line-height: 23px;
+.address-contact>a {
   color: rgba(34, 53, 111, 0.5);
 }
 .text-time {
-  padding-left: 22px;
-  flex-basis: 33%;
+  display: flex;
+  flex-direction: column;
+  margin-left: 60px;
+}
+.text-time>h3 {
+  padding-bottom: 50px;
 }
 .text-time>p {
-  padding-top: 50px;
-  font-size: 14px;
-  line-height: 23px;
+  max-width: 140px;
   color: rgba(34, 53, 111, 0.5);
 }
